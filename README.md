@@ -7,7 +7,7 @@ Steps for this sample
 1.Create Application class 
 
 
-open class ExampleApplication : Application(){
+  open class ExampleApplication : Application(){
 
     override fun onCreate() {
         super.onCreate()
@@ -15,7 +15,7 @@ open class ExampleApplication : Application(){
         Preferences.init(this)
     }
 
-}
+  }
 
 
 2.In manifest file define that value
