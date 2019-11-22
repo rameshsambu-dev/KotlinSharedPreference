@@ -21,7 +21,7 @@ open class ExampleApplication : Application(){
 2.In manifest file define that value
 
 
- <application
+        <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:name=".ExampleApplication"  //this line
@@ -67,7 +67,7 @@ object Preferences {
             it.putString(EMAIL.first, value)
         }
 
-}
+     }
 
 
 4.Access Email data from shared preference
@@ -88,7 +88,7 @@ class MainActivity : AppCompatActivity() {
         println("Email is "+Preferences.email)
 
     }
-}
+    }
 
 
 Thats All...Happy Coding
